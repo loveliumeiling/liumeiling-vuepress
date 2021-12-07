@@ -29,18 +29,27 @@ module.exports = {
                 title: '年份',   // 必要的
                 collapsable: false, // 可选的, 默认值是 true,
                 children: [{
-                    title: '2021年11月',
-                    collapsable: false,
-                    children: [
-                        '/year/2021/2021-11/2021-11-15'
-                    ]
-                }, {
                     title: '2021年10月',
                     collapsable: false,
                     children: [
                         '/year/2021/2021-10/2021-10-31'
                     ]
-                }
+                }, {
+                    title: '2021年11月',
+                    collapsable: false,
+                    children: [
+                        '/year/2021/2021-11/2021-11-15',
+                        '/year/2021/2021-11/2021-11-23',
+                        '/year/2021/2021-11/2021-11-27'
+                    ]
+                }, {
+                        title: '2021年12月',
+                        collapsable: false,
+                        children: [
+                            '/year/2021/2021-12/2021-12-04',
+                            '/year/2021/2021-12/2021-12-05'
+                        ]
+                    }
                 ]
             }
         ]
